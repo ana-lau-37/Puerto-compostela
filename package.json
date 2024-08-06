@@ -1,0 +1,13 @@
+{
+	"name": "template-puerto-compostela",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"sass": "sass cleaning-services-website-template/scss/style.scss css/style.css",
+		"sass:watch": "sass --watch cleaning-services-website-template/scss/style.scss:css/style.css"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC"
+}
