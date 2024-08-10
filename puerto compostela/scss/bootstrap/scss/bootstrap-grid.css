@@ -15,6 +15,11 @@ html {
   box-sizing: inherit;
 }
 
+/** @format */
+/* $custom-switch-indicator-border-radius: $custom-control-indicator-size / 2 !default; */
+/* $nav-divider-margin-y: $spacer / 2 !default; */
+/* $navbar-padding-y: $spacer / 2 !default; */
+/* $navbar-brand-padding-y: ($nav-link-height - $navbar-brand-height) / 2 !default; */
 .container,
 .container-fluid,
 .container-xl,

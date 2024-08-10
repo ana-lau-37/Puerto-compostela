@@ -5,6 +5,13 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  * Forked from Normalize.css, licensed MIT (https://github.com/necolas/normalize.css/blob/master/LICENSE.md)
  */
+/** @format */
+/* $custom-switch-indicator-border-radius: $custom-control-indicator-size / 2 !default; */
+/* $nav-divider-margin-y: $spacer / 2 !default; */
+/* $navbar-padding-y: $spacer / 2 !default; */
+/* $navbar-brand-padding-y: ($nav-link-height - $navbar-brand-height) / 2 !default; */
+/** @format */
+/** @format */
 *,
 *::before,
 *::after {
@@ -18,7 +25,16 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
   display: block;
 }
 
@@ -43,7 +59,12 @@ hr {
   overflow: visible;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
 }
@@ -277,9 +298,9 @@ legend {
   padding: 0;
   margin-bottom: 0.5rem;
   font-size: 1.5rem;
-  line-height: inherit;
-  color: inherit;
-  white-space: normal;
+  /* line-height: 1; */
+  /* color: inherit; */
+  /* white-space: normal; // 1 */
 }
 
 progress {

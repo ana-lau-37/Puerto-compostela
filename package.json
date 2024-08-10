@@ -1,13 +1,21 @@
 {
-	"name": "template-puerto-compostela",
-	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
-	"scripts": {
-		"sass": "sass cleaning-services-website-template/scss/style.scss css/style.css",
-		"sass:watch": "sass --watch cleaning-services-website-template/scss/style.scss:css/style.css"
-	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC"
+  "name": "template-puerto-compostela",
+  "version": "1.0.0",
+  "description": "Descripción del proyecto",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass \"puerto compostela/scss/style.scss\" \"css/style.css\"",
+    "sass:watch": "sass --watch \"puerto compostela/scss/style.scss\":\"css/style.css\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ana-lau-37/Puerto-Compostela.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ana-lau-37/Puerto-Compostela/issues"
+  },
+  "homepage": "https://github.com/ana-lau-37/Puerto-Compostela#readme"
 }

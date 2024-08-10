@@ -428,9 +428,9 @@ legend {
 	padding: 0;
 	margin-bottom: 0.5rem;
 	@include font-size(1.5rem);
-	line-height: 1;
+	/* line-height: 1; */
 	/* color: inherit; */ // 2
-	white-space: normal; // 1
+	/* white-space: normal; // 1 */
 }
 
 progress {
