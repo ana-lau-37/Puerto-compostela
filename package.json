@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/ana-lau-37/Puerto-Compostela/issues"
   },
-  "homepage": "https://github.com/ana-lau-37/Puerto-Compostela#readme"
+  "homepage": "https://github.com/ana-lau-37/Puerto-Compostela#readme",
+  "dependencies": {
+    "sass": "^1.77.8"
+  }
 }

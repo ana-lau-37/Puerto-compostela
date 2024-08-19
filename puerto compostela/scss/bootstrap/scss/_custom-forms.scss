@@ -496,7 +496,9 @@
 		@include border-radius($custom-range-thumb-border-radius);
 		@include box-shadow($custom-range-thumb-box-shadow);
 		@include transition($custom-forms-transition);
-		appearance: none;
+		.custom-select {
+			appearance: none;
+		}
 
 		&:active {
 			@include gradient-bg($custom-range-thumb-active-bg);

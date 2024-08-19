@@ -1,11 +1,13 @@
 /* Error: Undefined variable.
  *     ,
- * 190 |             border-radius: $custom-switch-indicator-border-radius;
- *     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ * 168 |                 .container#{breakpoint-infix($size, $container-max-widths)} {
+ *     |                                              ^^^^^
  *     '
- *   puerto compostela\scss\bootstrap\scss\_custom-forms.scss 190:19  @import
- *   puerto compostela\scss\bootstrap\scss\bootstrap.scss 24:9        @import
- *   puerto compostela\scss\style.scss 22:9                           root stylesheet */
+ *   puerto compostela\scss\bootstrap\scss\_navbar.scss 168:34            @content
+ *   puerto compostela\scss\bootstrap\scss\mixins\_breakpoints.scss 62:7  media-breakpoint-up()
+ *   puerto compostela\scss\bootstrap\scss\_navbar.scss 166:4             @import
+ *   puerto compostela\scss\bootstrap\scss\bootstrap.scss 26:9            @import
+ *   puerto compostela\scss\style.scss 22:9                               root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -15,5 +17,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a     \2577 \a 190 \2502              border-radius: $custom-switch-indicator-border-radius;\a     \2502                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\a     \2575 \a   puerto compostela\\scss\\bootstrap\\scss\\_custom-forms.scss 190:19  @import\a   puerto compostela\\scss\\bootstrap\\scss\\bootstrap.scss 24:9        @import\a   puerto compostela\\scss\\style.scss 22:9                           root stylesheet";
+  content: "Error: Undefined variable.\a     \2577 \a 168 \2502                  .container#{breakpoint-infix($size, $container-max-widths)} {\a     \2502                                               ^^^^^\a     \2575 \a   puerto compostela\\scss\\bootstrap\\scss\\_navbar.scss 168:34            @content\a   puerto compostela\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss 62:7  media-breakpoint-up()\a   puerto compostela\\scss\\bootstrap\\scss\\_navbar.scss 166:4             @import\a   puerto compostela\\scss\\bootstrap\\scss\\bootstrap.scss 26:9            @import\a   puerto compostela\\scss\\style.scss 22:9                               root stylesheet";
 }
