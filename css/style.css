@@ -1,11 +1,13 @@
-/* Error: Undefined variable.
+/* Error: Undefined operation "10.0625rem * 1rem".
  *     ,
- * 190 |             border-radius: $custom-switch-indicator-border-radius;
- *     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ * 101 |     @if ($fs * 1rem) > ($rfs-base-font-size * 1rem) and $enable-responsive-font-sizes {
+ *     |                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
  *     '
- *   puerto compostela\scss\bootstrap\scss\_custom-forms.scss 190:19  @import
- *   puerto compostela\scss\bootstrap\scss\bootstrap.scss 24:9        @import
- *   puerto compostela\scss\style.scss 22:9                           root stylesheet */
+ *   puerto compostela\scss\bootstrap\scss\vendor\_rfs.scss 101:25  rfs()
+ *   puerto compostela\scss\bootstrap\scss\vendor\_rfs.scss 199:3   font-size()
+ *   puerto compostela\scss\bootstrap\scss\_reboot.scss 59:2        @import
+ *   puerto compostela\scss\bootstrap\scss\bootstrap.scss 12:9      @import
+ *   puerto compostela\scss\style.scss 22:9                         root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -15,5 +17,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a     \2577 \a 190 \2502              border-radius: $custom-switch-indicator-border-radius;\a     \2502                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\a     \2575 \a   puerto compostela\\scss\\bootstrap\\scss\\_custom-forms.scss 190:19  @import\a   puerto compostela\\scss\\bootstrap\\scss\\bootstrap.scss 24:9        @import\a   puerto compostela\\scss\\style.scss 22:9                           root stylesheet";
+  content: 'Error: Undefined operation "10.0625rem * 1rem".\a     \2577 \a 101 \2502      @if ($fs * 1rem) > ($rfs-base-font-size * 1rem) and $enable-responsive-font-sizes {\d\a     \2502                          ^^^^^^^^^^^^^^^^^^^^^^^^^^\a     \2575 \a   puerto compostela\\scss\\bootstrap\\scss\\vendor\\_rfs.scss 101:25  rfs()\a   puerto compostela\\scss\\bootstrap\\scss\\vendor\\_rfs.scss 199:3   font-size()\a   puerto compostela\\scss\\bootstrap\\scss\\_reboot.scss 59:2        @import\a   puerto compostela\\scss\\bootstrap\\scss\\bootstrap.scss 12:9      @import\a   puerto compostela\\scss\\style.scss 22:9                         root stylesheet';
 }
