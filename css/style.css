@@ -1,25 +1,20 @@
-/**
- * Error: Undefined operation "10.0625rem * 1rem".
+/* Error: Mixins may not contain mixin declarations.
  *     ,
- * 101 |     @if ($fs * 1rem) > ($rfs-base-font-size * 1rem) and $enable-responsive-font-sizes {
- *     |                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ * 212 |     @mixin font-size($fs, $important: false) {
+ *     |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
  *     '
- *   puerto compostela\scss\bootstrap\scss\vendor\_rfs.scss 101:25  rfs()
- *   puerto compostela\scss\bootstrap\scss\vendor\_rfs.scss 199:3   font-size()
- *   puerto compostela\scss\bootstrap\scss\_reboot.scss 59:2        @import
- *   puerto compostela\scss\bootstrap\scss\bootstrap.scss 12:9      @import
- *   puerto compostela\scss\style.scss 22:9                         root stylesheet
- *
- * @format
- */
+ *   puerto compostela\scss\bootstrap\scss\vendor\_rfs.scss 212:2  @import
+ *   puerto compostela\scss\bootstrap\scss\_mixins.scss 9:9        @import
+ *   puerto compostela\scss\bootstrap\scss\bootstrap.scss 10:9     @import
+ *   puerto compostela\scss\style.scss 22:9                        root stylesheet */
 
 body::before {
-	font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-		"Droid Sans Mono", monospace, monospace;
-	white-space: pre;
-	display: block;
-	padding: 1em;
-	margin-bottom: 1em;
-	border-bottom: 2px solid black;
-	content: 'Error: Undefined operation "10.0625rem * 1rem".\a     \2577 \a 101 \2502      @if ($fs * 1rem) > ($rfs-base-font-size * 1rem) and $enable-responsive-font-sizes {\d\a     \2502                          ^^^^^^^^^^^^^^^^^^^^^^^^^^\a     \2575 \a   puerto compostela\\scss\\bootstrap\\scss\\vendor\\_rfs.scss 101:25  rfs()\a   puerto compostela\\scss\\bootstrap\\scss\\vendor\\_rfs.scss 199:3   font-size()\a   puerto compostela\\scss\\bootstrap\\scss\\_reboot.scss 59:2        @import\a   puerto compostela\\scss\\bootstrap\\scss\\bootstrap.scss 12:9      @import\a   puerto compostela\\scss\\style.scss 22:9                         root stylesheet';
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Mixins may not contain mixin declarations.\a     \2577 \a 212 \2502      @mixin font-size($fs, $important: false) {\d\a     \2502      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\a     \2575 \a   puerto compostela\\scss\\bootstrap\\scss\\vendor\\_rfs.scss 212:2  @import\a   puerto compostela\\scss\\bootstrap\\scss\\_mixins.scss 9:9        @import\a   puerto compostela\\scss\\bootstrap\\scss\\bootstrap.scss 10:9     @import\a   puerto compostela\\scss\\style.scss 22:9                        root stylesheet";
 }
